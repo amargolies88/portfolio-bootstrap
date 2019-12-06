@@ -1,0 +1,18 @@
+.main-width{
+    max-width: 960px;
+}
+
+.bg-4a{
+    background-color: #4aaaa5;
+}
+
+.centerText{
+    text-align: center;
+}
+
+#nameTitle{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+}
