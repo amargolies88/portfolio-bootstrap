@@ -11,7 +11,7 @@ body{
 .nav-link, .nav-link:hover, .button, .button:hover{
     color: #999999;
     text-decoration: none;
-    line-height: 1.25;
+    line-height: 1;
 }
 
 .lh-1{
