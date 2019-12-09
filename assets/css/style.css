@@ -18,6 +18,10 @@ body{
     line-height: 1;
 }
 
+.lh-2{
+    line-height: 2;
+}
+
 .text-hippieblue{
     color: #4aaaa5;
 }
@@ -26,8 +30,80 @@ body{
     background-color: #4aaaa5;
 }
 
-.font-georgia{
+.title-font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-    padding: 25px;
+}
+
+#articleTitle{
+    font-size: 26px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#copyright{
+    font-size: 10px;
+    color: #cccccc;
+}
+
+footer{
+    background-color: #666666;
+    height: 45px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+}
+
+.head-border{
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+}
+
+.title-border{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #cccccc;
+}
+
+.main-border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#pBackground-hangman{
+    background-image: url(../images/portfolio-imgs/hangman_300x200.png);
+}
+
+#pBackground-rpg-game{
+    background-image: url(../images/portfolio-imgs/rpg-game_300x200.png);
+}
+
+#pBackground-trivia-game{
+    background-image: url(../images/portfolio-imgs/trivia-game_300x200.png);
+}
+
+#pBackground-rutgers-widget{
+    background-image: url(../images/portfolio-imgs/rutgers-widget_300x200.png);
+}
+
+#pBackground-rock-paper-scissors{
+    background-image: url(../images/portfolio-imgs/rock-paper-scissors_300x200.png);
+}
+
+.pDiv{
+    width: 300px;
+    height: 200px;
+}
+
+.pLabelText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    padding: 8px 0 8px 0;
+    margin: 0;
 }
