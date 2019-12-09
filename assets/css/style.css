@@ -22,6 +22,10 @@ body{
     line-height: 2;
 }
 
+.lh-1-75{
+    line-height: 1.75;
+}
+
 .text-hippieblue{
     color: #4aaaa5;
 }
@@ -33,14 +37,6 @@ body{
 .title-font{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-}
-
-#articleTitle{
-    font-size: 26px;
-    margin: 0;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 #copyright{
@@ -74,36 +70,28 @@ footer{
     border-color: #dddddd;
 }
 
-#pBackground-hangman{
-    background-image: url(../images/portfolio-imgs/hangman_300x200.png);
-}
-
-#pBackground-rpg-game{
-    background-image: url(../images/portfolio-imgs/rpg-game_300x200.png);
-}
-
-#pBackground-trivia-game{
-    background-image: url(../images/portfolio-imgs/trivia-game_300x200.png);
-}
-
-#pBackground-rutgers-widget{
-    background-image: url(../images/portfolio-imgs/rutgers-widget_300x200.png);
-}
-
-#pBackground-rock-paper-scissors{
-    background-image: url(../images/portfolio-imgs/rock-paper-scissors_300x200.png);
-}
-
 .pDiv{
     width: 300px;
     height: 200px;
 }
 
+.pLabel{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    height: 70px;
+    width: 100%;
+    margin: 0 -15px 0 -15px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    /* background-color: #4aaaa5; */
+}
+
 .pLabelText{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
-    font-weight: 100;
-    padding: 8px 0 8px 0;
+    text-decoration: none;
     margin: 0;
 }
