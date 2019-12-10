@@ -10,6 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -21,7 +22,8 @@
                 <div class="col-md-auto">
                     <div class="row">
                         <div class="col text-center bg-hippieblue">
-                            <h1 class="font-weight-bold text-white m-auto title-font py-4 text-nowrap">Alan Margolies</h1>
+                            <h1 class="font-weight-bold text-white m-auto title-font py-4 text-nowrap">Alan Margolies
+                            </h1>
                         </div>
                     </div>
                 </div>
@@ -39,7 +41,8 @@
                                 <a class="nav-link py-0 px-3" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item active my-3 px-auto w-100 text-center">
-                                <a class="nav-link py-0 px-3" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                                <a class="nav-link py-0 px-3" href="contact.html">Contact <span
+                                        class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </nav>
@@ -50,7 +53,7 @@
     </div>
 
     <!-- MAIN -->
-    <div class="container mt-4 mb-5 px-4 bg-white main-border">
+    <div class="container mt-4 mb-big px-4 bg-white main-border">
 
         <!-- PAGE TITLE -->
         <div class="row">
@@ -60,12 +63,20 @@
         </div>
 
         <!-- CONTENT -->
-        <div class="row">
-            <div class="col mx-3 mt-4 p-0 lh-2">
-                <p>
-                    <img class="float-left mr-3 mb-2" src="assets/images/alan_suit_200_150.png" alt="pic of alan"/>
-                    Alan Margolies was born in 1988 in Metairie, Louisiana. His family moved to Lawrenceville, Georgia in 1990 where he spent most of the rest of his life. Alan is an experienced guitar teacher looking for a big change in career. Alan built his first website in 2004 where he first learned how to use software like Dreamweaver, Photoshop, and Flash. After a long while of working in retail stores and trying to maintain a minimum student base, in 2019 Alan recalled his inspiration from fifteen years ago and enrolled in the Full Stack Web Developer course at Georgia Tech's Coding Bootcamp. There with the helpful guidence of expert teachers he hopes to become an incredible developer.
-                </p>
+        <div class="row mt-4">
+            <div class="col mx-3 mt-0 mb-3 p-0 lh-2">
+                <form action="#">
+                    <label for="cName">Name:</label>
+                    <input type="text" id="cName" name="fullname" placeholder="John Smith">
+
+                    <label for="cEmail">Email:</label>
+                    <input type="text" id="cEmail" name="email" placeholder="example@gmail.com">
+
+                    <label for="subject">Message:</label>
+                    <textarea id="cMessage" name="subject" placeholder=""></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
