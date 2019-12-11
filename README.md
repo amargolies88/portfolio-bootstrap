@@ -31,6 +31,7 @@ The files can also be viewed in the web browser by choosing to open with your pr
 ## Credits
 
 Visual Studio Code https://code.visualstudio.com/
+Bootstrap https://getbootstrap.com/
 
 I would like to thank my teachers and classmates at the Georgia Tech Coding Bootcamp for their help and support.
 
