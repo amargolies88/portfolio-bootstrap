@@ -22,11 +22,11 @@ Download this repository (portfolio-bootstrap). Locate this repository in your l
 
 ## Usage
 
-Navigate to this repository locally. The three pages of the project are inside the root directory. Right click on one of the html files and choose open with code, or select the open with menu and choose your preferred editor.
+Navigate to this repository locally. The three pages of the project are inside the root directory. Right click on one of the html files and choose open with code, or select the "open with" menu and choose your preferred editor.
 
 ![How to edit](assets/images/readme-images/open-with-code.png)
 
-The files can also be viewed in the web browser by choosing to open with your preferred web browser. The CSS files can be found in assets/css. 
+The files can also be viewed in the web browser by choosing to open with your preferred web browser. The CSS files can be found in assets/css. All the images can be found in assets/images.
 
 ## Credits
 
