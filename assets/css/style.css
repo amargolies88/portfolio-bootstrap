@@ -88,7 +88,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* MESSAGE INPUT AREA FOR FORM */
