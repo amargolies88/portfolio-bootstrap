@@ -10,16 +10,8 @@ body{
     line-height: 1;
 }
 
-.lh-1{
-    line-height: 1;
-}
-
 .lh-2{
     line-height: 2;
-}
-
-.lh-1-75{
-    line-height: 1.75;
 }
 
 .text-hippieblue{
@@ -54,24 +46,19 @@ footer{
     border-bottom-width: 2px;
 }
 
-.title-border{
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-color: #cccccc;
-}
-
 .main-border{
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
 }
 
-.pDiv{
-    width: 300px;
-    height: 200px;
+.title-border{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #cccccc;
 }
 
-.pLabel{
+.portfolio-image-label{
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -80,7 +67,7 @@ footer{
     align-items: center;
 }
 
-.pLabelText{
+.portfolio-image-text{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     color: white;
@@ -88,12 +75,9 @@ footer{
     margin: 0;
 }
 
-#cMessage{
-    height: 200px;
-    margin-bottom: -8px;
-}
-
+/* FORM */
 input[type=text], select, textarea {
+    color: #555555;
     width: 100%;
     padding: 5px 10px 5px 10px;
     border: 1px solid #ccc;
@@ -104,6 +88,13 @@ input[type=text], select, textarea {
     font-size: 16px;
 }
 
+/* MESSAGE INPUT AREA FOR FORM */
+textarea {
+    height: 200px;
+    margin-bottom: -4px;
+}
+
+/* SUBMIT BUTTON FOR FORM */
 input[type=submit]{
     background-color: #4aaaa5;
     color: white;
@@ -114,14 +105,7 @@ input[type=submit]{
     border: none;
 }
 
-/* big bottom margin */
+/* BIG BOTTOM MARGIN */
 .mb-big{
     margin-bottom: 70px;
-}
-
-.special{
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: column wrap;
-    width: auto;
 }
